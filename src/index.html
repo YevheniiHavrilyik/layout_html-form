@@ -17,7 +17,7 @@
     >
       <fieldset class="form_item">
         <legend>
-        Personal Information
+          Personal Information
         </legend>
         <label class="form__field">
         Surname:
@@ -67,7 +67,7 @@
       </fieldset>
       <fieldset class="form_item">
         <legend>
-        Registration
+          Registration
         </legend>
         <label class="form__field">
         E-mail:
@@ -93,18 +93,24 @@
         </legend>
         <label class="form__field">
         Do you love cats?
-          <input
+
+          <label>
+            <input
             type="radio"
             name="userLoveCats"
             value="Y"
-          >
+            >
         Yes
-          <input
+          </label>
+
+          <label>
+            <input
             type="radio"
             name="userLoveCats"
             value="N"
-          >
+            >
         No
+          </label>
         </label>
         <label class="form__field"> 
         What is your favorite color?
@@ -155,6 +161,7 @@
           </select>
         </label>
       </fieldset>
+
       <button type="submit">Submit</button>
     </form>
     <script type="text/javascript" src="./main.js"></script>
